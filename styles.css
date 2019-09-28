@@ -127,12 +127,16 @@ li:hover{
     padding: 4%;
 }
 
+#plzDashboard{
+    margin-top: 3%;
+}
+
 .dashboard-content {
     top: 0;
     left: 0;
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: steelblue;
     min-width: 25%;
     min-height: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -147,7 +151,7 @@ li:hover{
 
 .dashboard-content ul li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .dashboard:hover .dashboard-content {
