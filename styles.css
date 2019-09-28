@@ -62,7 +62,7 @@ label {
     background-color: rgb(56, 104, 143);
     top: 7.5%;
     left: 0;
-    width: 4%;
+    width: 50px;
     height: 100vh;
     transition: .5s;
     text-align: center;
