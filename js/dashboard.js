@@ -2,22 +2,18 @@ $(function () {
     // alert("READY!");
 
     // Show sidebar when menu icon is clicked and move grid-container left
-    var showMenu = false;
     $("#menu-img").click(function () {
-        if (!showMenu) {
-            // alert("clicked!");
-            $("#sidebar").toggle();
-            $(".grid-container").css("margin-left", "20%");            
-            showMenu = true;
-        } 
-        else {
-            $(".grid-container").css("margin-left", "3%");
-            $("#sidebar").toggle();
-            showMenu = false;
-        }
+        // alert("clicked!");
+        $("#sidebar").toggle();
+        $(".grid-container").css("margin-left", "20%");
     });
 
-    // Show dropdown menu when icon is hovered over icon and hide when cursor leaves
+    $("#menu-img-big").click(function () {
+        $(".grid-container").css("margin-left", "3%");
+        $("#sidebar").toggle();
+    });
+
+    // Show dropdown menu when icon is hovered over and hide when cursor leaves
     $(".dropdown").mouseenter(function () {
             $(".dropdown-content").show();
         }),
@@ -30,4 +26,16 @@ $(function () {
         $(".dropdown").mouseleave(function () {
             $(".dropdown-content").hide();
         });
+
+    // Show dashboard when icon is clicked
+
+    $("#dashboard").click(function () {
+        $(".dashboard-content").toggle();
+        $(".grid-container").css("margin-left", "25%");
+    });
+
+    $("#dashboard-big").click(function () {
+        $(".dashboard-content").toggle();
+        $(".grid-container").css("margin-left", "3%");
+    });
 });
