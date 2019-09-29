@@ -18,7 +18,12 @@ label {
 }
 
 input{
-    margin: 5% 0;
+    margin: 2% 0;
+    padding: 1%;
+}
+
+select{
+    margin: 2% 0;
     padding: 1%;
 }
 
