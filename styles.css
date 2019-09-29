@@ -63,8 +63,6 @@ label {
     border: 1px solid red;
 }
 
-
-
 #menu-img-big svg {
     margin-left: -55%;
     margin-top: -6%;
@@ -639,7 +637,7 @@ li:hover {
         -ms-grid-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
         grid-template-columns: auto auto;
         border: none;
-        margin: 5% 5%;
+        margin: 5% 10%;
         padding: 1%;
     }
 
