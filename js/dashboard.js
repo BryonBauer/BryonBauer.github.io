@@ -51,7 +51,7 @@ $(function () {
 
     // Show dashboard when icon is clicked
 
-    $("#dashboard").click(function () {
+    $("#dashboard-icon").click(function () {
         $(".dashboard-content").toggle();
     });
 

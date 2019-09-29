@@ -18,16 +18,34 @@ label {
     margin-right: 1%;
 }
 
+#logo-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(56, 104, 143);
+}
+
 #menu-container{
     position: fixed;
     height: 60px;
     width: 15%;
     text-decoration: none;
+    /* border: 1px solid red; */
 }
 
-#menu-container img{
-    margin-top: -5%;
-    margin-left: -5%;
+#plzlogo{
+    position: fixed;
+    left: 75px;
+    top: 10px;
+    width: 100%;
+}
+
+#dashboard-icon{
+    position: fixed;
+    left: 12px;
+    top: 10px;
 }
 
 #menu-img{
@@ -37,15 +55,6 @@ label {
 
 #menu-img-big{
     margin-left: -90%;
-}
-
-#logo-container{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 60px;
-    width: 100%;
-    background: rgb(62, 100, 158);
 }
 
 /* sidebar-min */
@@ -115,11 +124,6 @@ li:hover{
     color: white;
     padding: 5%;
     text-decoration: none;
-}
-
-#dashboard{
-    margin-top: 1%;
-    position: relative;
 }
 
 #dashboard-big{
@@ -282,10 +286,10 @@ li:hover{
     } */
 
     #plzlogo{
+        position: fixed;
+        left: 150px;
+        top: 35px;
         width: 100%;
-        margin-left: 95%;
-        text-align: left;
-        margin-top: -75%;
     }
 
     #sidebar-min {
@@ -294,7 +298,6 @@ li:hover{
 
     .grid-container {
         display: block;
-        width: 80%;
         grid-gap: 50px 100px;
         border: 1px solid #7C838A;
         margin: 20% 5%;
@@ -344,13 +347,6 @@ li:hover{
     /* #sidebar-min {
         display: none;
     } */
-
-    #plzlogo{
-        width: 100%;
-        margin-left: 50%;
-        text-align: left;
-        margin-top: -35%;
-    }
 
     .grid-container {
         display: block;
@@ -402,13 +398,6 @@ li:hover{
         margin: 1% auto;
     } */
 
-    #plzlogo{
-        width: 100%;
-        margin-left: 45%;
-        text-align: left;
-        margin-top: -30%;
-    }
-
     .grid-container {
         display: block;
         grid-gap: 50px 100px;
@@ -421,19 +410,6 @@ li:hover{
     .grid {
         border: 1px solid #7C838A;
         margin: 1%;
-    }
-
-    #sidebar-min {
-        position: fixed;
-        background-color: rgb(56, 104, 143);
-        top: 7%;
-        left: 0;
-        width: 55px;
-        height: 100%;
-        transition: .5s;
-        text-align: center;
-        color: white;
-        overflow: auto;
     }
 
     .mainTable {
@@ -477,13 +453,6 @@ li:hover{
         margin: 1% auto;
         padding: 1%;
     } */
-
-    #plzlogo{
-        width: 100%;
-        margin-left: 45%;
-        text-align: left;
-        margin-top: -20%;
-    }
 
     .grid-container {
         display: -ms-grid;
@@ -537,19 +506,6 @@ li:hover{
         padding: 1%;
     }
 
-    #sidebar-min {
-        position: fixed;
-        background-color: rgb(56, 104, 143);
-        top: 7%;
-        left: 0;
-        width: 55px;
-        height: 100%;
-        transition: .5s;
-        text-align: center;
-        color: white;
-        overflow: auto;
-    }
-
     .mainTable {
         display: flex;
         /* border: 2px solid red; */
@@ -595,18 +551,6 @@ li:hover{
         margin: 1% auto;
         padding: 1%;
     } */
-
-    #dashboard{
-        margin-top: 10%;
-        margin-left: 10%;
-    }
-
-    #plzlogo{
-        width: 100%;
-        margin-left: 35%;
-        text-align: left;
-        margin-top: -12%;
-    }
 
     #sidebar{
         display: none;
