@@ -43,7 +43,7 @@ label {
     position: fixed;
     top: 0;
     left: 0;
-    height: 8%;
+    height: 60px;
     width: 100%;
     background: rgb(62, 100, 158);
     padding: 0.5%;
@@ -60,10 +60,10 @@ label {
 #sidebar-min {
     position: fixed;
     background-color: rgb(56, 104, 143);
-    top: 7.5%;
+    top: 7%;
     left: 0;
-    width: 4%;
-    height: 100vh;
+    width: 55px;
+    height: 100%;
     transition: .5s;
     text-align: center;
     color: white;
@@ -289,18 +289,54 @@ li:hover{
         margin: 1% auto;
     } */
 
+    #plzlogo{
+        width: 100%;
+        margin-left: 95%;
+        text-align: left;
+        margin-top: -75%;
+    }
+
+    #sidebar-min {
+        display: none;
+    }
+
     .grid-container {
         display: block;
+        width: 80%;
         grid-gap: 50px 100px;
         border: 1px solid #7C838A;
-        margin: 2%;
-        margin-top: 3%;
+        margin: 20% 5%;
+        padding: 1%;
     }
 
     .mainTable {
         display: block;
         /* border: 2px solid red; */
         justify-content: space-evenly;
+    }
+
+    .dashboard-content {
+        top: 0;
+        left: 0;
+        display: none;
+        position: absolute;
+        background: rgb(50, 54, 58);
+        min-width: 15%;
+        min-height: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 5% 2%;
+        z-index: 1;
+    }
+
+    dashboard-content ul{
+        list-style-type: none;
+        margin: 2%;
+        padding: 1%;
+    }
+
+    #dashboard-big{
+        margin-right: 60%;
+        margin-bottom: 10%;
     }
 }
 
@@ -313,17 +349,55 @@ li:hover{
         margin: 1% auto;
     } */
 
+    /* #sidebar-min {
+        display: none;
+    } */
+
+    #plzlogo{
+        width: 100%;
+        margin-left: 50%;
+        text-align: left;
+        margin-top: -35%;
+    }
+
     .grid-container {
         display: block;
         grid-gap: 50px 100px;
+        margin-top: 10%;
+        margin-right: 15%;
+        margin-left: 20%;
+        padding: 1%;
         border: 1px solid #7C838A;
-        margin-top: 3%;
     }
 
     .mainTable {
         display: block;
         /* border: 2px solid red; */
         justify-content: space-evenly;
+    }
+
+    .dashboard-content {
+        top: 0;
+        left: 0;
+        display: none;
+        position: absolute;
+        background: rgb(50, 54, 58);
+        min-width: 15%;
+        min-height: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 5% 2%;
+        z-index: 1;
+    }
+
+    dashboard-content ul{
+        list-style-type: none;
+        margin: 2%;
+        padding: 1%;
+    }
+
+    #dashboard-big{
+        margin-right: 30%;
+        margin-bottom: 10%;
     }
 }
 
@@ -336,12 +410,20 @@ li:hover{
         margin: 1% auto;
     } */
 
+    #plzlogo{
+        width: 100%;
+        margin-left: 45%;
+        text-align: left;
+        margin-top: -30%;
+    }
+
     .grid-container {
         display: block;
         grid-gap: 50px 100px;
         margin: 2%;
-        border: none;
-        margin-top: 3%;
+        /* border: 1px solid red; */
+        margin-top: 10%;
+        margin-right: 1%;
     }
 
     .grid {
@@ -349,11 +431,48 @@ li:hover{
         margin: 1%;
     }
 
+    #sidebar-min {
+        position: fixed;
+        background-color: rgb(56, 104, 143);
+        top: 7%;
+        left: 0;
+        width: 55px;
+        height: 100%;
+        transition: .5s;
+        text-align: center;
+        color: white;
+        overflow: auto;
+    }
+
     .mainTable {
         display: flex;
         /* border: 2px solid red; */
         justify-content: space-evenly;
         padding: 1%;
+    }
+
+    .dashboard-content {
+        top: 0;
+        left: 0;
+        display: none;
+        position: absolute;
+        background: rgb(50, 54, 58);
+        min-width: 15%;
+        min-height: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 5% 2%;
+        z-index: 1;
+    }
+
+    dashboard-content ul{
+        list-style-type: none;
+        margin: 2%;
+        padding: 1%;
+    }
+
+    #dashboard-big{
+        margin-right: 10%;
+        margin-bottom: 10%;
     }
 }
 
@@ -367,14 +486,23 @@ li:hover{
         padding: 1%;
     } */
 
+    #plzlogo{
+        width: 100%;
+        margin-left: 45%;
+        text-align: left;
+        margin-top: -20%;
+    }
+
     .grid-container {
         display: -ms-grid;
         display: grid;
         grid-gap: 5px 5px;
         -ms-grid-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
         grid-template-columns: auto auto;
-        border: none;
-        margin-top: 3%;
+        /* border: 1px solid red; */
+        margin: 10% 5%;
+        padding: 1%;
+        
     }
 
     .grid-1 {
@@ -382,7 +510,7 @@ li:hover{
         grid-column: 1;
         -ms-grid-row: 1;
         grid-row: 1;
-        border: 2px solid #7C838A;
+        border: 1px solid #7C838A;
         margin: 2%;
         padding: 1%;
     }
@@ -392,7 +520,7 @@ li:hover{
         grid-column: 2;
         -ms-grid-row: 1;
         grid-row: 1;
-        border: 2px solid #7C838A;
+        border: 1px solid #7C838A;
         margin: 2%;
         padding: 1%;
     }
@@ -402,7 +530,7 @@ li:hover{
         grid-column: 1;
         -ms-grid-row: 2;
         grid-row: 2;
-        border: 2px solid #7C838A;
+        border: 1px solid #7C838A;
         margin: 2%;
         padding: 1%;
     }
@@ -412,9 +540,22 @@ li:hover{
         grid-column: 2;
         -ms-grid-row: 2;
         grid-row: 2;
-        border: 2px solid #7C838A;
+        border: 1px solid #7C838A;
         margin: 2%;
         padding: 1%;
+    }
+
+    #sidebar-min {
+        position: fixed;
+        background-color: rgb(56, 104, 143);
+        top: 7%;
+        left: 0;
+        width: 55px;
+        height: 100%;
+        transition: .5s;
+        text-align: center;
+        color: white;
+        overflow: auto;
     }
 
     .mainTable {
@@ -422,6 +563,34 @@ li:hover{
         /* border: 2px solid red; */
         justify-content: space-evenly;
         padding: 1%;
+    }
+
+    .dashboard-content {
+        top: 0;
+        left: 0;
+        display: none;
+        position: absolute;
+        background: rgb(50, 54, 58);
+        min-width: 15%;
+        min-height: 100%;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 5% 2%;
+        z-index: 1;
+    }
+
+    dashboard-content ul{
+        list-style-type: none;
+        margin: 2%;
+        padding: 1%;
+    }
+
+    #dashboard-big{
+        margin-right: 25%;
+        margin-bottom: 25%;
+    }
+
+    #plzDashboard{
+        margin-top: -15%;
     }
 }
 
@@ -435,6 +604,13 @@ li:hover{
         padding: 1%;
     } */
 
+    #plzlogo{
+        width: 100%;
+        margin-left: 45%;
+        text-align: left;
+        margin-top: -15%;
+    }
+
     .grid-container {
         display: -ms-grid;
         display: grid;
@@ -442,8 +618,8 @@ li:hover{
         -ms-grid-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
         grid-template-columns: auto auto;
         border: none;
-        margin-top: 5%;
-        margin-left: 3%;
+        margin: 5% 5%;
+        padding: 1%;
     }
 
     .grid-1 {
@@ -491,5 +667,9 @@ li:hover{
         /* border: 2px solid red; */
         justify-content: space-evenly;
         padding: 1%;
+    }
+
+    #plzDashboard{
+        margin-top: -15%;
     }
 }
