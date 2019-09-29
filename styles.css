@@ -420,8 +420,8 @@ li:hover {
     /* #sidebar-min {
         display: none;
     } */
-
-    #menu-img{
+    
+    #menu-img-mobile{
         display: none;
     }
 
@@ -431,6 +431,11 @@ li:hover {
         left: 12px;
         top: 10px;
     }
+
+    #menu-img{
+        display: none;
+    }
+
 
     * sidebar-min */ #sidebar-min {
         position: fixed;
@@ -510,6 +515,10 @@ li:hover {
         height: 100%;
         margin: 1% auto;
     } */
+
+    #menu-img-mobile{
+        display: none;
+    }
 
     #menu-img {
         display: none;
