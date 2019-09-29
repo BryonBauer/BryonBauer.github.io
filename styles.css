@@ -46,7 +46,14 @@ label {
     top: 10px;
 }
 
-#dashboard-header{
+#menu-img-mobile {
+    display: none;
+    position: fixed;
+    left: 12px;
+    top: 10px;
+}
+
+#dashboard-header {
     display: inline-flex;
     position: fixed;
     width: 11%;
@@ -58,7 +65,7 @@ label {
 
 
 
-#menu-img-big svg{
+#menu-img-big svg {
     margin-left: -55%;
     margin-top: -6%;
     margin-bottom: 5%;
@@ -166,8 +173,8 @@ li:hover {
 }
 
 .dropdown-content {
-    top: 22%;
-    left: 4%;
+    top: 177px;
+    left: 55px;
     display: none;
     position: absolute;
     background-color: white;
@@ -203,8 +210,8 @@ li:hover {
 }
 
 .subDropdown-content {
-    top: 22%;
-    left: 16.25%;
+    top: 177px;
+    left: 232px;
     display: none;
     position: absolute;
     background-color: white;
@@ -288,6 +295,42 @@ li:hover {
         height: 100%;
         margin: 1% auto;
     } */
+
+    #dashboard-icon {
+        display: none;
+    }
+
+    #menu-img-mobile {
+        display: block;
+        position: fixed;
+        left: 12px;
+        top: 10px;
+    }
+
+    #sidebar-mobile {
+        display: none;
+        position: fixed;
+        background-color: rgb(56, 104, 143);
+        top: 60px;
+        left: 0;
+        width: 200px;
+        height: 100%;
+        transition: .5s;
+        text-align: center;
+        color: white;
+        overflow: auto;
+    }
+
+    #sidebar-mobile ul {
+        color: white;
+    }
+
+    #sidebar-mobile ul li a {
+        color: white;
+        padding: 5%;
+        text-decoration: none;
+    }
+
 
     #plzlogo {
         position: fixed;
