@@ -140,6 +140,20 @@ li:hover {
     text-decoration: none;
 }
 
+#sidebar-mobile {
+    display: none;
+    position: fixed;
+    background-color: rgb(56, 104, 143);
+    top: 60px;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    transition: .5s;
+    text-align: center;
+    color: white;
+    overflow: auto;
+}
+
 .dashboard-content {
     top: 0;
     left: 0;
@@ -321,13 +335,19 @@ li:hover {
         overflow: auto;
     }
 
-    #sidebar-mobile ul {
-        color: white;
+    #sidebar-mobile{
+        list-style-type: none;
     }
 
+    #sidebar-mobile ul li {
+        padding: 5%;
+        text-align: left;
+        margin-left: 1%;
+    }
+    
     #sidebar-mobile ul li a {
         color: white;
-        padding: 5%;
+        padding: 10%;
         text-decoration: none;
     }
 

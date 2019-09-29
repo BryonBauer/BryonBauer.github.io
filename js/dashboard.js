@@ -11,7 +11,7 @@ $(function () {
     // Show mobile sidebar when menu icon is clicked and move grid-container left
     $("#menu-img-mobile").click(function () {
         // alert("clicked!");
-        $("#sidebar-mobile").toggle();;
+        $("#sidebar-mobile").toggle();
     });
 
     // Hide sidebar and moved grid-container back to original pos
