@@ -64,6 +64,15 @@
         margin-top: 15%;
     }
 
+    #grid-container-title {
+        text-align: left;
+        margin-top: 82px;
+        margin-bottom: -100px;
+        margin-left: 6%;
+        font-size: 2em;
+        color: darkgray;
+    }
+
     .grid-container {
         display: block;
         grid-gap: 50px 100px;
