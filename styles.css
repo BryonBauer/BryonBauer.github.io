@@ -423,9 +423,6 @@ li:hover {
 
     #menu-img-tablet {
         display: block;
-        position: fixed;
-        left: 12px;
-        top: 10px;
     }
 
     #menu-img{
@@ -438,9 +435,8 @@ li:hover {
     
     #menu-img-big-tablet svg {
         display: block;
-        margin-left: -55%;
-        margin-top: -6%;
-        margin-bottom: 5%;
+        top: 10px;
+        left: 12px;
     }
 
     * sidebar-min */ #sidebar-min {
@@ -532,9 +528,6 @@ li:hover {
 
     #menu-img-tablet {
         display: block;
-        position: fixed;
-        left: 12px;
-        top: 50px;
     }
 
     #menu-img-big svg {
@@ -543,9 +536,8 @@ li:hover {
     
     #menu-img-big-tablet svg {
         display: block;
-        margin-left: -55%;
-        margin-top: -6%;
-        margin-bottom: 5%;
+        top: 10px;
+        left: 12px;
     }
 
     /* sidebar-min */
