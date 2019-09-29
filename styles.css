@@ -46,18 +46,6 @@ label {
     top: 10px;
 }
 
-#menu-img-big svg {
-    margin-left: -55%;
-    margin-top: -6%;
-    margin-bottom: 5%;
-}
-
-#menu-img-big-tablet svg {
-    margin-left: -55%;
-    margin-top: -6%;
-    margin-bottom: 5%;
-}
-
 #dashboard-header {
     display: inline-flex;
     position: fixed;
@@ -325,6 +313,14 @@ li:hover {
         display: none;
     }
 
+    #menu-img-big svg {
+        display: none;
+    }
+    
+    #menu-img-big-tablet svg {
+        display: none;
+    }
+
     #sidebar-mobile {
         display: none;
         position: fixed;
@@ -436,6 +432,16 @@ li:hover {
         display: none;
     }
 
+    #menu-img-big svg {
+        display: none;
+    }
+    
+    #menu-img-big-tablet svg {
+        display: block;
+        margin-left: -55%;
+        margin-top: -6%;
+        margin-bottom: 5%;
+    }
 
     * sidebar-min */ #sidebar-min {
         position: fixed;
@@ -531,6 +537,17 @@ li:hover {
         top: 50px;
     }
 
+    #menu-img-big svg {
+        display: none;
+    }
+    
+    #menu-img-big-tablet svg {
+        display: block;
+        margin-left: -55%;
+        margin-top: -6%;
+        margin-bottom: 5%;
+    }
+
     /* sidebar-min */
     #sidebar-min {
         position: fixed;
@@ -624,6 +641,14 @@ li:hover {
 
     #menu-img{
         display: block;
+    }
+
+    #menu-img-big svg {
+        display: block;
+    }
+    
+    #menu-img-big-tablet svg {
+        display: none;
     }
 
     .grid-container {
@@ -734,6 +759,14 @@ li:hover {
 
     #menu-img{
         display: block;
+    }
+
+    #menu-img-big svg {
+        display: block;
+    }
+    
+    #menu-img-big-tablet svg {
+        display: none;
     }
 
     #sidebar {
