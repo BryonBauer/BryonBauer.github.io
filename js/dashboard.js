@@ -55,7 +55,7 @@ $(function () {
         $(".dashboard-content").toggle();
     });
 
-    $("#dashboard-big").click(function () {
+    $("#dashboard-icon-big").click(function () {
         $(".dashboard-content").toggle();
     });
 });

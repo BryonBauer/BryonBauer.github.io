@@ -6,7 +6,6 @@
 }
 
 body {
-    margin: 1%;
     font-family: "Segoe UI", Arial, sans-serif;
     font-size: 0.75em;
     background-color: white;
@@ -18,7 +17,7 @@ label {
     margin-right: 1%;
 }
 
-#logo-container{
+#logo-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +26,7 @@ label {
     background-color: rgb(56, 104, 143);
 }
 
-#menu-container{
+#menu-container {
     position: fixed;
     height: 60px;
     width: 15%;
@@ -35,26 +34,34 @@ label {
     /* border: 1px solid red; */
 }
 
-#plzlogo{
+#plzheader-logo {
     position: fixed;
     left: 75px;
     top: 10px;
-    width: 100%;
 }
 
-#dashboard-icon{
+#dashboard-icon {
     position: fixed;
     left: 12px;
     top: 10px;
 }
 
-#menu-img{
-    margin-top: 10%;
-    margin-left: -10%;
+#dashboard-header{
+    display: inline-flex;
+    position: fixed;
+    width: 11%;
+    left: 12px;
+    top: 10px;
+    justify-content: space-between;
+    border: 1px solid red;
 }
 
-#menu-img-big{
-    margin-left: -90%;
+
+
+#menu-img-big svg{
+    margin-left: -55%;
+    margin-top: -6%;
+    margin-bottom: 5%;
 }
 
 /* sidebar-min */
@@ -71,33 +78,33 @@ label {
     overflow: auto;
 }
 
-#sidebar-min ul{
+#sidebar-min ul {
     list-style-type: none;
 }
 
-#sidebar-min ul li{
+#sidebar-min ul li {
     margin-left: -20%;
     padding-left: 40%;
     padding-right: 40%;
     padding-top: 35%;
-    padding-bottom: 35%; 
+    padding-bottom: 35%;
     text-decoration: none;
     text-align: center;
 }
 
-#sidebar-min svg{
+#sidebar-min svg {
     margin-top: 15%;
 }
 
-li:hover{
+li:hover {
     background: rgba(128, 128, 128, 0.5);
 }
 
 /* sidebar */
-#sidebar{
+#sidebar {
     display: none;
     position: fixed;
-    top: 8%;
+    top: 7%;
     left: 0;
     width: 15%;
     height: 100%;
@@ -110,28 +117,20 @@ li:hover{
     overflow: auto;
 }
 
-#sidebar ul{
+#sidebar ul {
     list-style-type: none;
 }
 
-#sidebar ul li{
+#sidebar ul li {
     padding: 5%;
     text-align: left;
     margin-left: -10%;
 }
 
-#sidebar ul li a{
+#sidebar ul li a {
     color: white;
     padding: 5%;
     text-decoration: none;
-}
-
-#dashboard-big{
-    padding: 4%;
-}
-
-#plzDashboard{
-    margin-top: 3%;
 }
 
 .dashboard-content {
@@ -146,13 +145,14 @@ li:hover{
     padding: 2% 1.5%;
     z-index: 1;
 }
-.dashboard-content ul{
+
+.dashboard-content ul {
     list-style-type: none;
     margin: 2%;
     padding: 1%;
 }
 
-.dashboard-content ul li a{
+.dashboard-content ul li a {
     text-decoration: none;
     color: white;
 }
@@ -175,19 +175,21 @@ li:hover{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-.dropdown-content ul{
+
+.dropdown-content ul {
     list-style-type: none;
 }
 
-.dropdown-content ul li{
+.dropdown-content ul li {
     padding-left: 1%;
     padding-right: 3%;
     padding-top: 10%;
-    padding-bottom: 10%; 
+    padding-bottom: 10%;
     text-decoration: none;
     text-align: center;
 }
-.dropdown-content ul li a{
+
+.dropdown-content ul li a {
     text-decoration: none;
     color: black;
 }
@@ -210,19 +212,21 @@ li:hover{
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-.subDropdown-content ul{
+
+.subDropdown-content ul {
     list-style-type: none;
 }
 
-.subDropdown-content ul li{
+.subDropdown-content ul li {
     padding-left: 1%;
     padding-right: 3%;
     padding-top: 10%;
-    padding-bottom: 10%; 
+    padding-bottom: 10%;
     text-decoration: none;
     text-align: center;
 }
-.subDropdown-content ul li a{
+
+.subDropdown-content ul li a {
     text-decoration: none;
     color: black;
 }
@@ -231,7 +235,7 @@ li:hover{
     display: block;
 }
 
-.hr{
+.hr {
     width: auto;
     height: 1px;
     background: lightgray;
@@ -240,7 +244,7 @@ li:hover{
     margin-bottom: 2%;
 }
 
-.hr-small{
+.hr-small {
     text-align: center;
     width: 80%;
     height: 1%;
@@ -250,7 +254,7 @@ li:hover{
     margin-bottom: 5%;
 }
 
-.hr-dropdown{
+.hr-dropdown {
     margin-left: 5%;
     text-align: center;
     width: 80%;
@@ -261,7 +265,7 @@ li:hover{
     margin-bottom: 5%;
 }
 
-.vr{
+.vr {
     margin: 1% 0;
     width: auto;
     height: 1px;
@@ -285,21 +289,23 @@ li:hover{
         margin: 1% auto;
     } */
 
-    #plzlogo{
+    #plzlogo {
         position: fixed;
-        left: 150px;
-        top: 35px;
+        left: 55px;
+        top: 8px;
         width: 100%;
     }
 
     #sidebar-min {
         display: none;
+        margin: 0;
+        padding: 0;
     }
 
     .grid-container {
         display: block;
         grid-gap: 50px 100px;
-        border: 1px solid #7C838A;
+        /* border: 1px solid #7C838A; */
         margin: 20% 5%;
         padding: 1%;
     }
@@ -314,7 +320,7 @@ li:hover{
         top: 0;
         left: 0;
         display: none;
-        position: absolute;
+        position: fixed;
         background: rgb(50, 54, 58);
         min-width: 15%;
         min-height: 100%;
@@ -323,20 +329,20 @@ li:hover{
         z-index: 1;
     }
 
-    dashboard-content ul{
+    dashboard-content ul {
         list-style-type: none;
         margin: 2%;
         padding: 1%;
     }
 
-    #dashboard-big{
-        margin-right: 60%;
-        margin-bottom: 10%;
+    #dashboard-icon-big {
+        top: 10px;
+        left: 12px;
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 767px) and (min-width: 601px) {
     /* #navBar {
         background-color: orange;
         width: 100%;
@@ -352,10 +358,8 @@ li:hover{
         display: block;
         grid-gap: 50px 100px;
         margin-top: 10%;
-        margin-right: 15%;
-        margin-left: 20%;
+        margin-left: 10%;
         padding: 1%;
-        border: 1px solid #7C838A;
     }
 
     .mainTable {
@@ -377,13 +381,13 @@ li:hover{
         z-index: 1;
     }
 
-    dashboard-content ul{
+    dashboard-content ul {
         list-style-type: none;
         margin: 2%;
         padding: 1%;
     }
 
-    #dashboard-big{
+    #dashboard-icon-big {
         margin-right: 30%;
         margin-bottom: 10%;
     }
@@ -401,10 +405,8 @@ li:hover{
     .grid-container {
         display: block;
         grid-gap: 50px 100px;
-        margin: 2%;
+        margin: 10%;
         /* border: 1px solid red; */
-        margin-top: 10%;
-        margin-right: 1%;
     }
 
     .grid {
@@ -416,7 +418,7 @@ li:hover{
         display: flex;
         /* border: 2px solid red; */
         justify-content: space-evenly;
-        padding: 1%;
+        padding: 0.5%;
     }
 
     .dashboard-content {
@@ -432,13 +434,13 @@ li:hover{
         z-index: 1;
     }
 
-    dashboard-content ul{
+    dashboard-content ul {
         list-style-type: none;
         margin: 2%;
         padding: 1%;
     }
 
-    #dashboard-big{
+    #dashboard-icon-big {
         margin-right: 10%;
         margin-bottom: 10%;
     }
@@ -463,7 +465,7 @@ li:hover{
         /* border: 1px solid red; */
         margin: 10% 5%;
         padding: 1%;
-        
+
     }
 
     .grid-1 {
@@ -526,18 +528,18 @@ li:hover{
         z-index: 1;
     }
 
-    dashboard-content ul{
+    dashboard-content ul {
         list-style-type: none;
         margin: 2%;
         padding: 1%;
     }
 
-    #dashboard-big{
+    #dashboard-icon-big {
         margin-right: 25%;
         margin-bottom: 25%;
     }
 
-    #plzDashboard{
+    #plzDashboard {
         margin-top: -15%;
     }
 }
@@ -552,7 +554,7 @@ li:hover{
         padding: 1%;
     } */
 
-    #sidebar{
+    #sidebar {
         display: none;
         position: fixed;
         top: 7%;
@@ -626,7 +628,4 @@ li:hover{
         padding: 1%;
     }
 
-    #plzDashboard{
-        margin-top: -20%;
-    }
 }
