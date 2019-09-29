@@ -13,7 +13,20 @@ $(function () {
         $(".grid-container").css("margin-left", "10%");
         $("#sidebar").toggle();
     });
+
+    // Show sidebar when menu icon is clicked and move grid-container left
+    $("#menu-img-tablet").click(function () {
+        // alert("clicked!");
+        $("#sidebar").toggle();
+        $(".grid-container").css("margin-left", "20%");
+    });
     
+    // Hide sidebar and moved grid-container back to original pos
+    $("#menu-img-big-tablet").click(function () {
+        $(".grid-container").css("margin-left", "10%");
+        $("#sidebar").toggle();
+    });
+
     // Show mobile sidebar when menu icon is clicked and move grid-container left
     $("#menu-img-mobile").click(function () {
         // alert("clicked!");
