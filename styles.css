@@ -17,12 +17,26 @@ label {
     margin-right: 1%;
 }
 
+input{
+    margin: 5% 0;
+    padding: 1%;
+}
+
+textarea{
+        margin: 5% 0;
+        padding: 1%;
+}
+
 #additionalInfoLbl{
     margin-left: 10%;
 }
 
 #additionalInfoTxt{
     margin-left: 10%;
+}
+
+#sendSamplesToLbl{
+    margin-top: 1%;
 }
 
 #grid-container-title{
