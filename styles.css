@@ -17,6 +17,23 @@ label {
     margin-right: 1%;
 }
 
+#additionalInfoLbl{
+    margin-left: 10%;
+}
+
+#additionalInfoTxt{
+    margin-left: 10%;
+}
+
+#grid-container-title{
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    margin-left: 7%;
+    font-size: 2em;
+    color: darkgray;
+}
+
 #logo-container {
     position: fixed;
     top: 0;
@@ -136,6 +153,10 @@ li:hover {
     text-align: center;
     color: white;
     overflow: auto;
+}
+
+.required{
+    color: red;
 }
 
 .dashboard-content {
