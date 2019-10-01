@@ -1,4 +1,39 @@
 /* Extra small devices (phones, 600px and down) */
+
+label {
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    text-align: right;
+    /* border: 1px solid red; */
+}
+
+input {
+    vertical-align: top;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    width: 90%;
+}
+
+select {
+    vertical-align: top;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    width: 75%;
+}
+
+textarea {
+    vertical-align: top;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding: 1%;
+}
+
 #dashboard-icon {
     display: none;
 }
@@ -77,6 +112,16 @@
     margin-left: 7%;
     font-size: 2em;
     color: darkgray;
+}
+
+.lblLeft110{
+    display: block;
+    text-align: right;
+    margin-left: 60%; 
+}
+
+#additionalInfoTxt{
+    margin-left: 65%;
 }
 
 .grid-container {

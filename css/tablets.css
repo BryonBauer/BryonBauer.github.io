@@ -7,6 +7,32 @@
         margin: 1% auto;
     } */
 
+    input {
+        vertical-align: top;
+        margin-top: -1%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        padding: 1%;
+        width: 85%;
+    }
+    
+    select {
+        vertical-align: top;
+        margin-top: -1%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        padding: 1%;
+        width: 85%;
+    }
+    
+    textarea {
+        vertical-align: top;
+        margin-top: -1%;
+        margin-bottom: 2%;
+        margin-left: 2%;
+        padding: 1%;
+    }
+
     #menu-img-mobile {
         display: none;
     }

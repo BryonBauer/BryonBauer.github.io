@@ -25,7 +25,7 @@ input {
     margin-bottom: 2%;
     margin-left: 2%;
     padding: 1%;
-    width: 75%;
+    width: auto;
 }
 
 select {
@@ -58,8 +58,6 @@ textarea {
     text-align: left;
     width: 110px;
 }
-
-
 
 #sendSamplesToLbl {
     margin-top: 1%;
@@ -193,6 +191,12 @@ li:hover {
     text-align: center;
     color: white;
     overflow: auto;
+}
+
+.rdoInline{
+    display: inline-flex;
+    margin: 0 1%;
+    width: 100px;
 }
 
 .required {
