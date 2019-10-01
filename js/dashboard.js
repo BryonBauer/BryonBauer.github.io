@@ -21,11 +21,13 @@ $(function () {
         // alert("clicked!");
         $("#sidebar").toggle();
         $(".grid-container").css("margin-left", "20%");
+        $("#grid-container-title").css("margin-left", "21%");
     });
     
     // Hide sidebar and moved grid-container back to original pos
     $("#menu-img-big-tablet").click(function () {
         $(".grid-container").css("margin-left", "10%");
+        $("#grid-container-title").css("margin-left", "10%");
         $("#sidebar").toggle();
     });
 

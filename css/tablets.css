@@ -7,7 +7,7 @@
         margin: 1% auto;
     } */
 
-    #menu-img-mobile{
+    #menu-img-mobile {
         display: none;
     }
 
@@ -22,11 +22,12 @@
     #menu-img-big svg {
         display: none;
     }
-    
+
     #menu-img-big-tablet svg {
         display: block;
         top: 10px;
-        left: 12px;
+        left: 50px;
+        margin-left: 9%;
     }
 
     /* sidebar-min */
@@ -61,9 +62,41 @@
         text-align: left;
         margin-top: 100px;
         margin-bottom: -70px;
-        margin-left: 11%;
+        margin-left: 10%;
         font-size: 2em;
         color: darkgray;
+    }
+
+    /* sidebar */
+    #sidebar {
+        display: none;
+        position: fixed;
+        top: 60px;
+        left: 0;
+        width: 150px;
+        height: 100%;
+        background: rgb(56, 104, 143);
+        transition: .5s;
+        text-align: center;
+        color: white;
+        font-size: 1em;
+        overflow: auto;
+    }
+
+    #sidebar ul {
+        list-style-type: none;
+    }
+
+    #sidebar ul li {
+        padding: 5%;
+        text-align: left;
+        margin: 1%;
+    }
+
+    #sidebar ul li a {
+        color: white;
+        padding: 5%;
+        text-decoration: none;
     }
 
     .grid-container {
@@ -105,7 +138,7 @@
     }
 
     #dashboard-icon-big {
-        margin-right: 10%;
+        left: 12px;
         margin-bottom: 10%;
     }
 }

@@ -14,12 +14,13 @@ body {
 label {
     width: 100%;
     font-weight: bold;
-    margin-right: 1%;
+    text-align: right;
 }
 
 input{
     margin: 2% 0;
     padding: 1%;
+    width: auto;
 }
 
 select{
