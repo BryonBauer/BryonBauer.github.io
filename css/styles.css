@@ -12,40 +12,60 @@ body {
 }
 
 label {
-    width: 100%;
+    display: block;
+    width: 200px;
     font-weight: bold;
     text-align: right;
+    /* border: 1px solid red; */
 }
 
-input{
-    margin: 2% 0;
+input {
+    vertical-align: top;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
     padding: 1%;
     width: auto;
 }
 
-select{
-    margin: 2% 0;
+select {
+    vertical-align: top;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    padding: 1%;
+    width: 85%;
+}
+
+textarea {
+    vertical-align: top;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
     padding: 1%;
 }
 
-textarea{
-        margin: 5% 0;
-        padding: 1%;
+#netWeightTxt {
+    width: 25%;
 }
 
-#additionalInfoLbl{
-    margin-left: 10%;
+#netWeightDropdown {
+    width: 35%;
 }
 
-#additionalInfoTxt{
-    margin-left: 10%;
+.lblLeft110 {
+    display: block;
+    text-align: left;
+    width: 110px;
 }
 
-#sendSamplesToLbl{
+
+
+#sendSamplesToLbl {
     margin-top: 1%;
 }
 
-#grid-container-title{
+#grid-container-title {
     text-align: left;
     margin-top: 100px;
     margin-bottom: -100px;
@@ -175,7 +195,7 @@ li:hover {
     overflow: auto;
 }
 
-.required{
+.required {
     color: red;
 }
 
@@ -324,5 +344,5 @@ li:hover {
 
 .tableCell {
     display: table-cell;
+    vertical-align: top;
 }
-
